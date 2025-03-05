@@ -1,4 +1,4 @@
-# Retail Store Chain Analysis - Assignment 3
+# Retail Store Chain Analysis - Assignment
 
 ## Overview
 This repository contains the solution for **Assignment 3: Retail Store Chain Analysis**, focusing on analyzing retail store sales data from the **Superstore Sales Dataset**.
