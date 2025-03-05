@@ -23,7 +23,7 @@ This repository contains the solution for **Assignment 3: Retail Store Chain Ana
 
 ## Project Structure
 
-- `1_clean_data.ipynb`: Data cleaning notebook. This notebook performs initial cleaning and preprocessing on the raw dataset.
+- `1_data_pipeline/1_pandas_data_cleaning_pipeline.py`: This script handles the initial cleaning and preprocessing of the dataset.
 - `2_process_sales_history.ipynb`: Sales processing notebook. This notebook processes sales history data for analysis.
 - `3_postgreSQL_schema.sql`: SQL schema for PostgreSQL database. Defines tables, keys, and relationships for storing processed data.
 - `4_pyspark_to_sql.ipynb`: Data insertion notebook. This notebook loads the processed data into a PostgreSQL database using PySpark.
