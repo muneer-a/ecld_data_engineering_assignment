@@ -1,21 +1,34 @@
-# Retail Store Chain Analysis - Assignment 
+# Retail Store Chain Analysis - Assignment 3
 
 ## Overview
-This repository contains the solution for **Assignment 3: Retail Store Chain Analysis**, focusing on analyzing retail store sales data from the **Superstore Sales Dataset**. 
+This repository contains the solution for **Assignment 3: Retail Store Chain Analysis**, focusing on analyzing retail store sales data from the **Superstore Sales Dataset**.
 
-## Key Features
+### Core Requirements
 
-- **Data Pipeline**: 
-  - Clean and process data using **Python** and **PySpark**.
-  - Utilize a **PostgreSQL** schema for analytics.
-  
-- **Transformations**: 
-  - Implement product hierarchy, sales aggregation, and customer patterns.
+#### Dataset: 
+- **Superstore Sales Dataset** (available on [Kaggle: Sales Forecasting](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting))
 
-- **Analysis**: 
-  - Analyze product performance, regional comparisons, seasonal trends, and customer segment profitability.
+#### Data Pipeline
 
-## Deliverables
+- Clean retail data using Python (handling missing values, duplicates).
+- Process sales history with PySpark.
+- Design efficient PostgreSQL schema for retail analytics.
+
+#### Transformations
+
+- Product hierarchy organization.
+- Sales aggregations by region/category.
+- Customer purchase patterns.
+
+#### Analysis Features
+
+- Product performance metrics.
+- Regional sales comparison.
+- Seasonal trend analysis.
+- Customer segment profitability.
+- Build KPI summary tables.
+
+#### Deliverables:
 
 - **ETL Pipeline Code**: Scripts for extracting, transforming, and loading data.
 - **Analysis Queries**: Queries used to analyze the dataset and generate insights.
@@ -23,16 +36,16 @@ This repository contains the solution for **Assignment 3: Retail Store Chain Ana
 
 ## Project Structure
 
-- `1_data_pipeline/1_pandas_data_cleaning_pipeline.py`: This script handles the initial cleaning and preprocessing of the dataset.
-- `2_process_sales_history.ipynb`: Sales processing notebook. This notebook processes sales history data for analysis.
-- `3_postgreSQL_schema.sql`: SQL schema for PostgreSQL database. Defines tables, keys, and relationships for storing processed data.
-- `4_pyspark_to_sql.ipynb`: Data insertion notebook. This notebook loads the processed data into a PostgreSQL database using PySpark.
-- `5_sql_analysis_query.sql`: SQL queries for data analysis. Queries used to perform various analyses on the data stored in the PostgreSQL database.
-- `6_transformations.ipynb`: Data transformations notebook. Implements transformations such as product hierarchy and sales aggregation.
-- `7_analysis_features.ipynb`: Analysis features notebook. This notebook performs the analysis and generates insights based on the cleaned and transformed data.
+- `1_data_pipeline/1_pandas_data_cleaning_pipeline.py`: Python script for initial data cleaning.
+- `1_clean_data.ipynb`: Data cleaning notebook for preprocessing the dataset.
+- `2_process_sales_history.ipynb`: Processes sales history for analysis.
+- `3_postgreSQL_schema.sql`: Defines PostgreSQL schema for the database.
+- `4_pyspark_to_sql.ipynb`: Loads processed data into PostgreSQL using PySpark.
+- `5_sql_analysis_query.sql`: SQL queries for data analysis.
+- `6_transformations.ipynb`: Data transformation and aggregation notebook.
+- `7_analysis_features.ipynb`: Performs analysis and generates insights.
 
 ## Team Members
 
 - **Varsha U**
 - **Muneer A**
-
