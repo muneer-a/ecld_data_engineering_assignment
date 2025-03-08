@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 os.makedirs('data/pandas_cleaned_data',exist_ok=True)
-read_dir = "data/given_data/train.csv"
+read_dir = "data/train.csv"
 target_dir = "data/pandas_cleaned_data/data.csv"
 
 try:
