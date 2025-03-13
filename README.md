@@ -51,6 +51,7 @@ This repository contains the solution for **Assignment 3: Retail Store Chain Ana
 ## Folder Structure
 
   project_root/
+  
 ├── 1_data_pipeline/
 
 │   ├── 1_clean_data.ipynb
