@@ -52,26 +52,47 @@ This repository contains the solution for **Assignment 3: Retail Store Chain Ana
 
   project_root/
 ├── 1_data_pipeline/
+
 │   ├── 1_clean_data.ipynb
+
 │   ├── 1_pandas_data_cleaning_pipeline.py
+
 │   ├── 2_process_sales_history.ipynb
+
 │   ├── 3_postgreSQL_schema.sql
+
 │   ├── 4_pyspark_to_sql.py
+
 │   ├── 5_sql_analysis_query.sql
+
 ├── 2_transformations/
+
 │   ├── 6_transformations.ipynb
+
 ├── 3_analysis_features/
+
 │   ├── 7_analysis_features.ipynb
+
 ├── 4_modifications/
+
 │   ├── 8_dip_analysis.ipynb
+
 │   ├── 9_sales_forecast.py
+
 ├── data/
+
 │   ├── pandas_cleaned_data/
+
 │   ├── 4_final_data.csv
+
 │   ├── train.csv
+
 ├── project_documentation/
+
 │   ├── project_documentation.pdf
+
 ├── README.md
+
 ├── config.yaml  
 
 ## Team Members
