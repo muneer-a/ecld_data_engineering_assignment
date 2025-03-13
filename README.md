@@ -46,7 +46,7 @@ This repository contains the solution for **Assignment 3: Retail Store Chain Ana
 - `6_transformations.ipynb`: Data transformation and aggregation notebook.
 - `7_analysis_features.ipynb`: Performs analysis and generates insights.
 - `8_dip_analysis.ipynb`: Identifies products with declining sales trends.
-- `9_sales_forecasting.ipynb`: Implements sales forecasting using machine learning models.
+- `9_sales_forecast.ipynb`: Implements sales forecasting using machine learning models.
 
 ## Team Members
 
